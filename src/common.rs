@@ -996,7 +996,7 @@ fn get_api_server_(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "http://zzxvip.uicp.top".to_owned()
+    "http://zzxvip.uicp.top:21114".to_owned()
 }
 
 #[inline]
